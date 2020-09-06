@@ -34,7 +34,7 @@ header {
 
 .post {
     background-color: rgb(43, 43, 43);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     border-radius: 10px;
     margin-right: 200px;
     margin-left: 200px;
@@ -45,6 +45,5 @@ header {
 }
 
 .post > p{
-    color: rgb(43, 43, 43);
-}
+    color: whitesmoke;
 
