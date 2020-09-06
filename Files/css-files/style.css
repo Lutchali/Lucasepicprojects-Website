@@ -1,8 +1,4 @@
-/**{
-    margin: 0px;
-    padding: 0px;
-}*/
-/*Styles the body and the Dropdown menue*/
+
 body { 
     
     font-family: Arial;
@@ -12,10 +8,6 @@ body {
 }
 
 
-
-
-
-/*Styles the posts and the Slideshow*/
 header {
     text-align: center;
     margin-bottom: 10px;
@@ -47,3 +39,41 @@ header {
 .post > p{
     color: whitesmoke;
 }
+
+.dropbtn {
+    background-color: #4d4d4d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4d4d4d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown-content a {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #3f3f3f;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3f3f3f;}
